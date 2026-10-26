@@ -1,0 +1,4 @@
+
+[3228:1015/195237.886:WARNING:electron\shell\browser\ui\win\notify_icon.cc:60] Unable to create status tray icon.
+[3228:1015/195237.893:WARNING:electron\shell\browser\ui\win\notify_icon.cc:139] Error setting status tray icon image
+[3228:1015/195237.893:WARNING:electron\shell\browser\ui\win\notify_icon.cc:167] Unable to set tooltip for status tray icon

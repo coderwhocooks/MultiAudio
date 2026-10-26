@@ -1,0 +1,28 @@
+{
+  "name": "multiaudio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "desktop": "electron .",
+    "desktop:window": "powershell -Command \"Start-Process 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe' -ArgumentList '--app=http://localhost:5173', '--window-size=1280,840'\"",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "main": "electron/main.cjs",
+  "dependencies": {
+    "lucide-react": "^1.57.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "electron": "^44.7.2",
+    "oxlint": "^1.81.0",
+    "vite": "^8.3.0"
+  }
+}
